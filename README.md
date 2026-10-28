@@ -1,8 +1,10 @@
 # Agent skills
 
-Personal skill collection for soumyyy, starting with six skills adapted from Lauren Tan (poteto)'s [pstack](https://github.com/cursor/plugins/tree/main/pstack).
+Personal skill collection for soumyyy, including a personal mode and six skills adapted from Lauren Tan (poteto)'s [pstack](https://github.com/cursor/plugins/tree/main/pstack).
 
 ## Included skills
+
+- `soumya-mode`: invocation-only personal workflow for autonomous work with system context, evidence, and continuous improvement.
 
 - `why`: investigate design rationale with cited historical evidence.
 - `recall`: reconstruct project context and verify its current state.
@@ -13,7 +15,7 @@ Personal skill collection for soumyyy, starting with six skills adapted from Lau
 
 ## Install in Codex
 
-With GitHub CLI authenticated for this private repository, clone it and install the six folders:
+With GitHub CLI authenticated for this private repository, clone it and install the skill folders:
 
 ```sh
 gh repo clone soumyyy/agent-skills
@@ -29,6 +31,6 @@ Edit the repository copies, then commit and push when ready. Installed copies do
 
 `UPSTREAM.json` pins the source commit and hashes every original imported file. All upstream supporting references are retained. Each entrypoint links a runtime adapter that replaces Cursor-specific tools, hardcoded model selection, transcript paths, unavailable skill dependencies, and external-write assumptions with the current host's capabilities and authorization rules. Unsupported Cursor frontmatter was removed; normal Codex skill discovery remains enabled.
 
-No chat history, credentials, or existing private skills are included. `automate-me` is installed as a workflow; a personal mode has not yet been generated.
+No chat history, credentials, or existing private skills are included. Invoke the personal mode explicitly with `$soumya-mode`. Its `agents/openai.yaml` disables implicit invocation. `automate-me` can revise it from future feedback.
 
 The imported material is MIT licensed. See [LICENSE](LICENSE) for the upstream copyright and license.
