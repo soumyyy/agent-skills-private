@@ -1,0 +1,6 @@
+interface:
+  display_name: "Soumya mode"
+  short_description: "Autonomous work with context, evidence, and learning"
+  default_prompt: "Use $soumya-mode to finish this task with system context and concrete verification."
+policy:
+  allow_implicit_invocation: false
