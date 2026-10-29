@@ -12,6 +12,7 @@ Personal skill collection for soumyyy: a personal mode, investigation and learni
 - `automate-me`: draft or revise a personal mode from demonstrated preferences.
 - `teach`: explain how a system works and why it has its current shape.
 - `technical-writing`: write and review technical documents and developer prose.
+- `sharpen`: explicitly invoke `$sharpen` to deepen and rewrite a prompt using primary material, concrete methods, and independent verification. It does not execute the task.
 
 ## PR workflows from tstack
 
@@ -42,7 +43,7 @@ Edit the repository copies, then commit and push when ready. Installed copies do
 
 ## Adaptation and provenance
 
-`UPSTREAM.json` pins pstack; `TSTACK-UPSTREAM.json` pins tstack. Both record hashes of the original imported files before adaptation. Upstream supporting files are retained. Imported entrypoints link a runtime adapter that replaces Cursor-specific tools, hardcoded model selection, transcript paths, unavailable skill dependencies, and external-write assumptions with the current host's capabilities and authorization rules. Unsupported Cursor frontmatter was removed from pstack. Normal Codex skill discovery remains enabled for the imported skills; only the personal mode has implicit invocation disabled. The tstack workflows have their own narrow request triggers.
+`UPSTREAM.json` pins pstack; `TSTACK-UPSTREAM.json` pins tstack. Both record hashes of the original imported files before adaptation. Upstream supporting files are retained. Imported entrypoints link a runtime adapter that replaces Cursor-specific tools, hardcoded model selection, transcript paths, unavailable skill dependencies, and external-write assumptions with the current host's capabilities and authorization rules. Unsupported Cursor frontmatter was removed from pstack. Normal Codex skill discovery remains enabled for the imported skills; the personal mode and sharpen have implicit invocation disabled. The tstack workflows have their own narrow request triggers.
 
 No chat history, credentials, or existing private skills are included. Invoke the personal mode explicitly with `$soumya-mode`. Its `agents/openai.yaml` disables implicit invocation. `automate-me` can revise it from future feedback.
 

@@ -90,6 +90,10 @@
     {
       "path": "skills/why/references/synthesizer-prompt.md",
       "sha256": "11c62671aa7b7a6e3d36929ffe2b59bf95e6ca664eee4d93e6ee527dd3390ddb"
+    },
+    {
+      "path": "skills/sharpen/SKILL.md",
+      "sha256": "563dfc460c605d311e650726288e2f1cbd61eab817db178d6e7e29643e07e7a2"
     }
   ]
 }
