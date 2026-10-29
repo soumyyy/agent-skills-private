@@ -1,0 +1,9 @@
+# Runtime compatibility
+
+These rules replace conflicting mechanics in this imported skill and its references.
+
+- Follow the host's tool, delegation, permissions, and question-tool rules. A skill never overrides higher-priority instructions. Use only available tools, model versions, and option values. Report missing capabilities rather than substituting a named model or claiming unperformed verification.
+- In T3, resolve models with `orchestrator_capabilities` before the first delegate. Use `delegate_task` for cross-provider or user-specified settings. Every new review round is a fresh delegate with the consolidated brief and findings. Follow its returned `next`; do not poll, sleep, or send a new review through thread messages. Cancel an abandoned delegate. Reviewers must not edit, publish, start children, or watch PRs.
+- After creating, taking over, or pushing to a PR, make `link_pull_request` with its full URL the next tool call. Include every stack layer. The parent owns PR monitoring: handle actionable work, call `watch_pull_request`, then end the turn while waiting. Unwatch before a final handoff or question. In T3 never use `pr-wait`, Monitor, shell polling, or sleep to wait for PRs. Outside T3 use the bundled watcher only if host rules permit it.
+- A read or review request does not authorize pushes, comments, merges, or closing PRs. Follow the user's actual grant. `full-stop` authorizes preparing and updating this task's PR, but never merging it. Existing repository and host rules for testing still apply. Do not assume a skill grants access to production, private data, or external accounts.
+- Resolve companion skills by the host catalog or the sibling folders. Use the host's question tool for an actual blocker. Keep review reports and source material private unless publishing them is authorized. Use structured tool arguments or a body file for PR text.
