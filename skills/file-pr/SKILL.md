@@ -5,7 +5,7 @@ description: File a concise pull request. Use when the user asks to file, open, 
 
 # File PR
 
-Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting upstream tool and authorization mechanics.
+Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting tool and authorization mechanics.
 
 
 Before filing, check whether a PR for this branch already exists. Review the

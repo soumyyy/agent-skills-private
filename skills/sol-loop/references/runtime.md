@@ -1,6 +1,6 @@
 # Runtime compatibility
 
-These rules replace conflicting mechanics in this imported skill and its references.
+These rules replace conflicting mechanics in this skill and its references.
 
 - Follow the host's tool, delegation, permissions, and question-tool rules. A skill never overrides higher-priority instructions. Use only available tools, model versions, and option values. Report missing capabilities rather than substituting a named model or claiming unperformed verification.
 - In T3, resolve models with `orchestrator_capabilities` before the first delegate. Use `delegate_task` for cross-provider or user-specified settings. Every new review round is a fresh delegate with the consolidated brief and findings. Follow its returned `next`; do not poll, sleep, or send a new review through thread messages. Cancel an abandoned delegate. Reviewers must not edit, publish, start children, or watch PRs.

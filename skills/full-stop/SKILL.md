@@ -5,7 +5,7 @@ description: "Use when explicitly asked to run full-stop or prepare a merge-read
 
 # Full stop
 
-Read [runtime compatibility](references/runtime.md). This is a self-contained adaptation of Theo's full-stop/full-send pipeline. It requires sibling `sol-loop`, `file-pr`, `babysit-pr`, and `leaving-pr-comments`, not `full-send`.
+Read [runtime compatibility](references/runtime.md). This workflow requires sibling `sol-loop`, `file-pr`, `babysit-pr`, and `leaving-pr-comments`, not `full-send`.
 
 ## Grant and boundary
 

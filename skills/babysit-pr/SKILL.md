@@ -5,7 +5,7 @@ description: Monitor a pull request through review and CI. Use when the user ask
 
 # Babysit PR
 
-Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting upstream tool and authorization mechanics.
+Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting tool and authorization mechanics.
 
 
 Many repos have AI review bots. They're helpful, even if they are not always

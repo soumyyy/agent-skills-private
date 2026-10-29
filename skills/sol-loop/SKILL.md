@@ -5,7 +5,7 @@ description: "Use when the user requests sol-loop or sol loop. Review the scoped
 
 # sol-loop
 
-Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting upstream tool and authorization mechanics.
+Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting tool and authorization mechanics.
 
 
 This is a workflow for making your code changes more correct before (or

@@ -7,7 +7,7 @@ description: >-
 
 # Modernize
 
-Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting upstream tool and authorization mechanics.
+Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting tool and authorization mechanics.
 
 
 Modernize the idea, not just the branch. A clean rebase does not prove that the

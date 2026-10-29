@@ -5,7 +5,7 @@ description: Use whenever leaving comments on GitHub.
 
 # Leaving PR Comments
 
-Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting upstream tool and authorization mechanics.
+Read [runtime compatibility](references/runtime.md) before following this workflow. It replaces conflicting tool and authorization mechanics.
 
 
 Prefix every agent-authored comment left on the user's behalf with this GitHub
