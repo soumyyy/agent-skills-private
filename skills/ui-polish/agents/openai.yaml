@@ -1,4 +1,0 @@
-interface:
-  display_name: "UI polish"
-  short_description: "Audit and refine existing screens without losing behavior"
-  default_prompt: "Use $ui-polish to audit this screen and make focused, verified visual improvements."

@@ -1,10 +1,10 @@
 ---
-name: ui-polish
+name: unslop
 description: "Audit and polish an existing landing page, dashboard, web app, or mobile screen when asked to clean up its visual design, remove an AI-generated look, or unslop the UI. Preserve product behavior and brand while improving hierarchy, spacing, copy, type, and interaction states. Not for prose-only cleanup or a new site build."
 license: CC-BY-4.0
 ---
 
-# UI polish
+# Unslop
 
 Improve the screen's craft and product identity without changing its purpose. Preserve features, navigation, section order, data semantics, accessibility, and working interactions unless the request explicitly includes redesigning them. Existing brand choices and design-system components are evidence, not flaws to erase.
 

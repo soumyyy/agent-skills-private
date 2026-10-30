@@ -12,7 +12,7 @@ Personal skill collection for soumyyy: investigation, learning, writing, code re
 - `automate-me`: draft or revise a personal mode from demonstrated preferences.
 - `teach`: explain how a system works and why it has its current shape.
 - `technical-writing`: write and review technical documents and developer prose.
-- `ui-polish`: audit and refine an existing screen’s visual design while preserving behavior, brand, data and accessibility. Use `$ui-polish` or ask to polish the UI; it does not handle prose cleanup.
+- `unslop`: audit and refine an existing screen’s visual design while preserving behavior, brand, data and accessibility. Use `$unslop` or ask to polish the UI; it does not handle prose cleanup.
 - `sharpen`: explicitly invoke `$sharpen` to deepen and rewrite a prompt using primary material, concrete methods, and independent verification. It does not execute the task.
 
 ## PR workflows
@@ -50,4 +50,4 @@ No chat history or credentials are included. Use `$automate-me` to revise the pe
 
 ## License notices
 
-Required license and copyright notices are retained in [LICENSE](LICENSE) and [LICENSE.third-party](LICENSE.third-party). The UI-polishing workflow has a separate [license notice](skills/ui-polish/NOTICE.md) and [CC BY 4.0 license](skills/ui-polish/LICENSE).
+Required license and copyright notices are retained in [LICENSE](LICENSE) and [LICENSE.third-party](LICENSE.third-party). The UI-polishing workflow has a separate [license notice](skills/unslop/NOTICE.md) and [CC BY 4.0 license](skills/unslop/LICENSE).
