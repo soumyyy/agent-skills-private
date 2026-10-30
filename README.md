@@ -12,6 +12,7 @@ Personal skill collection for soumyyy: investigation, learning, writing, code re
 - `automate-me`: draft or revise a personal mode from demonstrated preferences.
 - `teach`: explain how a system works and why it has its current shape.
 - `technical-writing`: write and review technical documents and developer prose.
+- `seo`: diagnose and improve organic-search visibility through evidence-backed crawl, indexing, metadata, content, structured-data and performance checks. Use `$seo`; ranking outcomes and external account actions remain separate from code fixes.
 - `sharpen`: explicitly invoke `$sharpen` to deepen and rewrite a prompt using primary material, concrete methods, and independent verification. It does not execute the task.
 
 ## PR workflows
