@@ -12,6 +12,7 @@ Personal skill collection for soumyyy: investigation, learning, writing, code re
 - `automate-me`: draft or revise a personal mode from demonstrated preferences.
 - `teach`: explain how a system works and why it has its current shape.
 - `technical-writing`: write and review technical documents and developer prose.
+- `explainer-reel`: end-to-end narrated vertical explainers with a 2D presenter, real speech timing, audio analysis and MP4 verification. Designed around the primary MacBook’s M3 chip and 8 GiB memory; Blender is optional, not required.
 - `seo`: diagnose and improve organic-search visibility through evidence-backed crawl, indexing, metadata, content, structured-data and performance checks. Use `$seo`; ranking outcomes and external account actions remain separate from code fixes.
 - `unslop`: audit and refine an existing screen’s visual design while preserving behavior, brand, data and accessibility. Use `$unslop` or ask to polish the UI; it does not handle prose cleanup.
 - `sharpen`: explicitly invoke `$sharpen` to deepen and rewrite a prompt using primary material, concrete methods, and independent verification. It does not execute the task.
