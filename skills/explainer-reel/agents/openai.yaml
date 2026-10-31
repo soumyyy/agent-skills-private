@@ -1,4 +1,0 @@
-interface:
-  display_name: "Explainer reel"
-  short_description: "Narrated 2D reels designed for an 8 GB MacBook"
-  default_prompt: "Use $explainer-reel to turn this topic into a narrated vertical reel within my 8 GB MacBook's limits."

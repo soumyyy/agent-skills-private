@@ -1,9 +1,9 @@
 ---
-name: explainer-reel
+name: demo
 description: "Create a narrated vertical explainer reel from a topic, notes or approved script, through script review, voice, word timing, 2D presenter animation, sound, validation and final MP4 delivery. Defaults to a memory-conscious HTML/SVG workflow for an 8 GB Apple Silicon MacBook. Not for standalone transcription, generic video edits, or Blender-first 3D production."
 ---
 
-# Explainer reel
+# Demo
 
 Build a short, understandable lesson, not a collection of animated labels. Each demonstration must illustrate the spoken claim. Default to a 30–60 second 9:16 reel with an original 2D presenter, captions and a limited palette. Follow the user's topic, required facts, destination and chosen style instead of imposing this template on every video.
 

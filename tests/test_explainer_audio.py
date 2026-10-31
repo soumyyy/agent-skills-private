@@ -10,7 +10,7 @@ import tempfile
 import unittest
 import wave
 
-SCRIPT = Path(__file__).resolve().parents[1] / 'skills/explainer-reel/scripts/analyze_audio.py'
+SCRIPT = Path(__file__).resolve().parents[1] / 'skills/demo/scripts/analyze_audio.py'
 
 
 class AudioAnalysisTests(unittest.TestCase):
