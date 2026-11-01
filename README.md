@@ -44,6 +44,18 @@ The installer copies to `$CODEX_HOME/skills`, defaulting to `~/.codex/skills`. I
 
 Edit the repository copies, then commit and push when ready. Installed copies do not sync automatically. To update an installed skill, back up or remove its old folder and rerun the installer.
 
+## Install in Claude Code
+
+```sh
+python3 scripts/install.py --agent claude
+```
+
+This installs to `~/.claude/skills/`. Invoke `/demo`, `/reflect`, `/seo`, or another skill by name in a new Claude Code session. Existing differing skills and symlink destinations are never overwritten. Repeating the command is safe when the installed copies match.
+
+The installer generates Claude-compatible entrypoints, mapping the personal mode and sharpen’s invocation-only policy to `disable-model-invocation: true`. Source skills and Codex installations remain unchanged. Generated entrypoints explain Claude paths, invocation and missing-capability handling. Tool access is session-specific: standalone Claude cannot run cross-provider council or Sol reviews without a harness exposing those exact models. Video workflows require the installed HyperFrames/media skills and their tools.
+
+Use `--dest <directory>` for an isolated installation. Claude copies do not automatically sync; preserve any personal edits before replacing an older generated copy.
+
 ## Runtime and configuration
 
 Skills use the current host’s tools, model catalog, and authorization rules. Runtime compatibility references explain how to run workflows in Codex and T3. The personal mode and sharpen require explicit invocation; other workflows use their documented request triggers.
