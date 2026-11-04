@@ -12,6 +12,7 @@ Personal skill collection for soumyyy: investigation, learning, writing, code re
 - `automate-me`: draft or revise a personal mode from demonstrated preferences.
 - `teach`: explain how a system works and why it has its current shape.
 - `technical-writing`: write and review technical documents and developer prose.
+- `demo`: end-to-end narrated vertical explainers with a 2D presenter, real speech timing, audio analysis and MP4 verification. Designed around the primary MacBook’s M3 chip and 8 GiB memory; Blender is optional, not required.
 - `seo`: diagnose and improve organic-search visibility through evidence-backed crawl, indexing, metadata, content, structured-data and performance checks. Use `$seo`; ranking outcomes and external account actions remain separate from code fixes.
 - `unslop`: audit and refine an existing screen’s visual design while preserving behavior, brand, data and accessibility. Use `$unslop` or ask to polish the UI; it does not handle prose cleanup.
 - `sharpen`: explicitly invoke `$sharpen` to deepen and rewrite a prompt using primary material, concrete methods, and independent verification. It does not execute the task.
@@ -42,6 +43,18 @@ python3 scripts/install.py
 The installer copies to `$CODEX_HOME/skills`, defaulting to `~/.codex/skills`. It refuses to replace an existing skill with different contents. Skills become available on the next turn. Invoke by name, for example `$why` or `$teach`.
 
 Edit the repository copies, then commit and push when ready. Installed copies do not sync automatically. To update an installed skill, back up or remove its old folder and rerun the installer.
+
+## Install in Claude Code
+
+```sh
+python3 scripts/install.py --agent claude
+```
+
+This installs to `~/.claude/skills/`. Invoke `/demo`, `/reflect`, `/seo`, or another skill by name in a new Claude Code session. Existing differing skills and symlink destinations are never overwritten. Repeating the command is safe when the installed copies match.
+
+The installer generates Claude-compatible entrypoints, mapping the personal mode and sharpen’s invocation-only policy to `disable-model-invocation: true`. Source skills and Codex installations remain unchanged. Generated entrypoints explain Claude paths, invocation and missing-capability handling. Tool access is session-specific: standalone Claude cannot run cross-provider council or Sol reviews without a harness exposing those exact models. Video workflows require the installed HyperFrames/media skills and their tools.
+
+Use `--dest <directory>` for an isolated installation. Claude copies do not automatically sync; preserve any personal edits before replacing an older generated copy.
 
 ## Runtime and configuration
 
